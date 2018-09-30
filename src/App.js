@@ -161,12 +161,11 @@ class App extends Component {
       : (
         <React.Fragment>
           <h2>NO</h2>
-          {
-            (window.location.href.includes("localhost"))
-            ?<a href="https://api.instagram.com/oauth/authorize/?client_id=7e9cc9cfc5fe47cfbccf7cfebe2572f8&redirect_uri=http://localhost:3000&response_type=token">Press here to get access</a>
-            :<a href="https://api.instagram.com/oauth/authorize/?client_id=7e9cc9cfc5fe47cfbccf7cfebe2572f8&redirect_uri=https://panteliselef.github.io/hashtagapp/&response_type=token">Press here to get access</a>
           
-          }
+          {/* <a href="https://api.instagram.com/oauth/authorize/?client_id=7e9cc9cfc5fe47cfbccf7cfebe2572f8&redirect_uri=http://localhost:3000&response_type=token">Press here to get access</a> */}
+          <a href="https://api.instagram.com/oauth/authorize/?client_id=7e9cc9cfc5fe47cfbccf7cfebe2572f8&redirect_uri=https://panteliselef.github.io/hashtagapp/&response_type=token">Press here to get access</a>
+          
+          
         </React.Fragment>
         )
     );
