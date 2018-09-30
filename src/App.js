@@ -118,7 +118,7 @@ class App extends Component {
       let newTagArr =tagArr.map(item => {
         return item.replace("#","");  
       })
-      // this.getTagsInfo(newTagArr);
+      this.getTagsInfo(newTagArr);
       console.log("newTagArr",newTagArr);
       let newNewTageArr = newTagArr.filter(item => {
         if (!this.state.checkingArray.includes(item)){
